@@ -11,6 +11,8 @@
 @time: 2020/1/19 9:32 下午
 @desc:
 """
+
+
 import math
 
 from ecommerce.products import Product
@@ -25,6 +27,7 @@ class Point(object):
 
     def calc_distance(self, other_point):
         return math.sqrt((self.x - other_point.x) ** 2 + (self.y - other_point.y) ** 2)
+
 
 if __name__ == '__main__':
 
